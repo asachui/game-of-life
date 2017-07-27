@@ -3,8 +3,8 @@
 // Number of boxes
 var BOXES_W = 20;
 var BOXES_H = 20;
-var BOX_SIZE_W = 40;
-var BOX_SIZE_H = 40;
+var BOX_SIZE_W = 30;
+var BOX_SIZE_H = 30;
 
 // Board width
 var bw = BOXES_W * BOX_SIZE_W;
@@ -97,7 +97,7 @@ function getNeighbours(x, y) {
   if (x+1 < BOXES_W) {
     neighbours.push([x+1, y])
   }
-  // Bottom row  
+  // Bottom row
   if (y+1 < BOXES_H) {
     if (x-1 >= 0) {
       neighbours.push([x-1, y+1]);
@@ -120,9 +120,9 @@ function runEpoch() {
 $(document).ready( function() {
 	drawBoard();
 
-  setInterval(function(){ 
+  setInterval(function(){
     if (gameState === 1) {
       runEpoch();
     }
-  }, 2000);  
+  }, 2000);
 });

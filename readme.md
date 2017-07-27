@@ -1,1 +1,1 @@
-Basic version of Conway's game of life.
+Basic version of Conway's Game of Life.

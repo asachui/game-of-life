@@ -4,8 +4,8 @@ canvas {
 }
 
 button {
-	margin-left: 300px;
-	font-size: 36px;
-	width: 200px;
-	text-align: center;
+  margin-left: 20px;
+  font-size: 36px;
+  width: 200px;
+  text-align: center;
 }
