@@ -1,0 +1,11 @@
+canvas {
+  /*border: 1px solid #000000;*/
+  margin: 20px;
+}
+
+button {
+	margin-left: 300px;
+	font-size: 36px;
+	width: 200px;
+	text-align: center;
+}
